@@ -6,7 +6,7 @@ const int volume    = 3; // 0 to 255
 
 int buzzerState = LOW;
 
-unsigned long buttonLastPressedMillis = 0; // will store last time LED was updated
+unsigned long buttonLastPressedMillis = 0;
 
 const long intervalMillis = 1000;
 
